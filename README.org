@@ -1,0 +1,6 @@
+#+TITLE: Readme
+
+* Introduction
+This is a simple operating system to learn bare metal programming.
+* Resources
+- [[https://os.phil-opp.com/][Philipp Oppermann's Blog]]
