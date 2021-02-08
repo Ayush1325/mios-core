@@ -7,3 +7,4 @@ target = "x86_64-bare.json"
 
 [target.x86_64-bare]
 runner = "bootimage runner"
+
