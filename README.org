@@ -2,5 +2,33 @@
 
 * Introduction
 This is a simple operating system to learn bare metal programming.
+* Build Instructions
+** Dependencies
+*** Rust Nightly
+- Can be installed using rustup.
+#+begin_src shell
+rustup toolchain install nightly
+#+end_src
+*** Rust-src
+#+begin_src shell
+rustup component add rust-src
+#+end_src
+*** Bootimage
+- Can be found [[https://docs.rs/bootloader/0.9.12/bootloader/][here]].
+#+begin_src shell
+cargo install bootimage
+#+end_src
+*** QEMU
+- Depends on the linux distribution.
+** Build
+- Using Cargo.
+#+begin_src shell
+cargo build
+#+end_src
+** Run
+- Using Cargo
+#+begin_src shell
+cargo run
+#+end_src
 * Resources
 - [[https://os.phil-opp.com/][Philipp Oppermann's Blog]]
